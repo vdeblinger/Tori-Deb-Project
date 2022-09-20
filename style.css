@@ -1,3 +1,8 @@
 h1 {
-    color: red;
+    color: black;
+    font-weight: 900px;
+    border: 7px solid black
+}
+body {
+    background-color: rgba(255, 0, 0, 0.979);
 }
