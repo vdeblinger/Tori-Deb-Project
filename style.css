@@ -1,8 +1,86 @@
-h1 {
-    color: black;
-    font-weight: 900px;
-    border: 7px solid black
+body { 
+    background-color: rgb(187, 161, 161);
+    width: 100%;
 }
-body {
-    background-color: rgba(255, 0, 0, 0.979);
+.titles {
+    border-bottom: 7px solid rgb(153, 39, 39);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 45px;
+    text-align: center;
+
+}
+.quotes {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    background-color:rgb(153, 39, 39);
+}
+.flexbox1 {
+    display: flex;
+    font-family: Copperplate, Papyrus, fantasy; 
+    font-size: 40px;
+    border: 4px outset maroon;
+    color: maroon;
+  
+    justify-content: space-between;
+
+}
+.flexbox2 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    border: 7px solid maroon;
+    width: 100%;
+}
+.homeimage {
+    width: 500px;
+
+}
+h3 {
+    font-family: Copperplate, Papyrus, fantasy; 
+    font-size: 40px;
+    border: 4px outset maroon;
+    color: maroon;
+}
+
+.navbutton {
+    display: flex;
+    border: 2px solid maroon;
+    color: maroon;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 8px;
+    padding: 5px;
+} 
+nav {
+    display: flex;
+    justify-content: center;
+    border: 2px dotted maroon;
+    align-self: center;
+    margin: 20px;
+    text-decoration: none;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(34, 23, 23);
+}
+#songlink {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(34, 23, 23);
+    
+}
+.skills {
+    display: flex;
+    border: 4px outset maroon;
+    flex direction: row;
+    justify-content: center;
+    width: 100%;
+   
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
 }
